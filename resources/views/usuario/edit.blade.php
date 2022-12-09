@@ -38,7 +38,7 @@
     <button type="submit" class="btn btn-primary" tabindex="4">Guardar</button>
   </form>
 
-
+qxx
 @stop
 
 @section('css')

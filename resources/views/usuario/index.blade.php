@@ -46,6 +46,8 @@
    </tbody>
   </table>
 
+  <a href="#" class="link-danger">Si necesitas ayuda, Ingresa a este enlace</a>
+
 @stop
 
 @section('css')

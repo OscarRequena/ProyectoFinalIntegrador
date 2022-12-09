@@ -20,7 +20,14 @@ Route::get('/', function () {
 Route::resource('articulos','App\Http\Controllers\ArticuloController');
 Route::resource('usuarios','App\Http\Controllers\UsuarioController');
 Route::resource('equipos','App\Http\Controllers\EquipoController');
+Route::resource('crear_incidencia','App\Http\Controllers\CrearIncidenciaController');
+Route::resource('ticket','App\Http\Controllers\TicketController');
+Route::resource('historial_ticket','App\Http\Controllers\Historial_ticketController');
 
+Route::resource('incidencias','App\Http\Controllers\IncidenciaController');
+Route::resource('requerimientos','App\Http\Controllers\RequerimientoController');
+
+Route::resource('roles','App\Http\Controllers\RolController');
 
 Route::middleware([
     'auth:sanctum',

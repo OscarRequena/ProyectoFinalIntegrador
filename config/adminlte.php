@@ -311,13 +311,13 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-        [
+       /* [
             'text'        => 'Articulos',
             'url'         => 'articulos',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 'crud',
             'label_color' => 'warning',
-        ],
+        ], */
         [
             'text'        => 'Usuarios',
             'url'         => 'usuarios',
@@ -328,6 +328,48 @@ return [
         [
             'text'        => 'Equipos de TI',
             'url'         => 'equipos',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'crud',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Solicitudes',
+            'url'         => 'crear_incidencia',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'Cliente',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Ticket',
+            'url'         => 'ticket',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'crud',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Seguimiento',
+            'url'         => 'historial_ticket',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'crud',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Rol',
+            'url'         => 'roles',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'crud',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Incidencia',
+            'url'         => 'incidencias',
+            'icon'        => 'far fa-fw fa-file',
+            'label'       => 'crud',
+            'label_color' => 'warning',
+        ],
+        [
+            'text'        => 'Requerimiento',
+            'url'         => 'requerimientos',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 'crud',
             'label_color' => 'warning',
